@@ -1,0 +1,4 @@
+@EndUserText.label: 'Display Products'
+define service ZVKS_UI_SD_DISP_PROD {
+  expose ZVKS_C_Products as Products;
+}
